@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element attribute="value">
+    <element />
+    <element />
+    <element attribute="value">text</element>
+    <element />
+    <element>text</element>
+    <element>
+
+        <test />
+        <element attribute="value">
+
+
+            <element />
+            <element attribute="value" />
+
+
+        </element>
+    </element>
