@@ -2,6 +2,7 @@
 /**
  * ArrayWithUserInput
  */
+import java.util.Arrays;
 import java.util.Scanner;
 public class Test_mYjava {
     public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class Test_mYjava {
         System.out.println("Enter the 2nd Array length: ");
        
         int Array_Input2 = Array_Input_2.nextInt();
-        int[][] Array_Input = { { Array_Input1 }, { Array_Input2 } };
+        int[][] Array_Input = new int[Array_Input1][Array_Input2];
         Scanner ArrayPassing = new Scanner(System.in);
         System.out.println("Enter the values into the array:");
        for (int i=0; i< Array_Input.length; i++) {
@@ -21,7 +22,7 @@ Array_Input[i][j]= ArrayPassing.nextInt();
 
 
     }}
-System.out.println(Array_Input.length);
+System.out.println(Arrays.deepToString(Array_Input));
 }
 
     }
