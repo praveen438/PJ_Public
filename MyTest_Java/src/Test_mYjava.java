@@ -23,7 +23,7 @@ Array_Input[i][j]= ArrayPassing.nextInt();
 
     }}
 System.out.println(Arrays.deepToString(Array_Input));
-System.out.println("End");
+
 }
 
     }
